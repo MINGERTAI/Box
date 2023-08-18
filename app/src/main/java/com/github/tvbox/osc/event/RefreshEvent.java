@@ -6,6 +6,7 @@ package com.github.tvbox.osc.event;
  * @description:
  */
 public class RefreshEvent {
+    public static final int TYPE_PUSH_VOD = 99;
     public static final int TYPE_REFRESH = 0;
     public static final int TYPE_HISTORY_REFRESH = 1;
     public static final int TYPE_QUICK_SEARCH = 2;
@@ -22,6 +23,7 @@ public class RefreshEvent {
     public static final int TYPE_LIVE_URL_CHANGE = 13;
     public static final int TYPE_EPG_URL_CHANGE = 14;
     public static final int TYPE_APP_REFRESH = 15;
+    public static final int TYPE_FILTER_CHANGE = 16;
     public int type;
     public Object obj;
 

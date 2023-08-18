@@ -30,6 +30,7 @@
     <string name="det_expand">Expand</string>
     <string name="det_search">Search</string>
     <string name="det_sort">Sort</string>
+    <string name="det_push">Push</string>
     <string name="det_fav">Favorite</string>
     <string name="det_fav_add">Added to Favorite</string>
     <string name="det_fav_del">Removed from Favorite</string>
@@ -68,6 +69,7 @@
     <string name="mn_locale">Language</string>
     <string name="mn_theme">Theme</string>
     <string name="mn_about">About</string>
+    <string name="mn_purify">Purify</string>
 
     // Settings Dialog Pop-Up //
     <string name="dia_source">Select Source</string>
@@ -87,6 +89,7 @@
     <string name="dia_dns">Select DNS</string>
     <string name="dia_locale">Select Language</string>
     <string name="dia_theme">Select Theme</string>
+    <string name="dia_confirm">Confirm to Clear All ?</string>
 
     // Settings Backup Restore Page //
     <string name="set_bkup_ok">Backup Success</string>
@@ -103,14 +106,14 @@
 
     // Activity Page //
     <string name="act_app">Applications</string>
-    <string name="act_app_sel">Select to</string>
+    <string name="act_app_sel">Select to Uninstall</string>
     <string name="act_app_rm">Uninstall</string>
     <string name="act_fav">Favorite</string>
-    <string name="act_fav_sel">Select to</string>
+    <string name="act_fav_sel">Select to Remove</string>
     <string name="act_fav_rm">Remove</string>
     <string name="act_drive">Drives</string>
     <string name="act_hist">History</string>
-    <string name="act_hist_sel">Select to</string>
+    <string name="act_hist_sel">Select to Remove</string>
     <string name="act_hist_rm">Remove</string>
     <string name="act_search">Search</string>
     <string name="act_search_clr">Clear</string>
@@ -146,5 +149,27 @@
     <string name="vod_sub_delay">Delay</string>
     <string name="vod_sub_search">Search</string>
     <string name="vod_sub_off">Subtitle Off</string>
+    <string name="vod_remaining_time">Remaining Time</string>
+    <string name="vod_ends_at">Ends at</string>
+
+    // EXO Player
+    <string name="exo_track_selection_title_video">Video</string>
+    <string name="exo_track_selection_title_audio">Audio</string>
+    <string name="exo_track_selection_title_text">Text</string>
+    <string name="exo_track_selection_none">None</string>
+    <string name="exo_track_selection_auto">Auto</string>
+    <string name="exo_track_unknown">Unknown</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
+    <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_stereo">Stereo</string>
+    <string name="exo_track_surround">Surround Sound</string>
+    <string name="exo_track_surround_5_point_1">5.1 Surround Sound</string>
+    <string name="exo_track_surround_7_point_1">7.1 Surround Sound</string>
+    <string name="exo_track_role_alternate">Alternate</string>
+    <string name="exo_track_role_supplementary">Supplementary</string>
+    <string name="exo_track_role_commentary">Commentary</string>
+    <string name="exo_track_role_closed_captions">CC</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
+    <string name="exo_item_list">%1$s，%2$s</string>
 
 </resources>
